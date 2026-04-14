@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Quantum-Certified Anonymization: Irreversibility Beyond Computational Hardness"
+authors:
+  - family-names: Houshmand
+    given-names: Daniel Mo
+    affiliation: QDaria Quantum Research, Oslo, Norway
+    orcid: https://orcid.org/0009-0008-2270-5454
+    email: mo@qdaria.com
+type: article
+version: 1.0.3
+date-released: 2026-04-15
+doi: 10.5281/zenodo.19437010
+url: https://github.com/QDaria/quantum-certified-anonymization
+repository-code: https://github.com/QDaria/quantum-certified-anonymization
+license: Apache-2.0
+keywords:
+  - anonymization
+  - quantum random number generation
+  - Born rule
+  - differential privacy
+  - GDPR
+  - information-theoretic security
+  - one-time pad
+abstract: >
+  We present the first data anonymization system whose irreversibility is guaranteed
+  by the Born rule of quantum mechanics rather than by computational hardness
+  assumptions. We introduce QRNG-OTP-Destroy, a protocol that replaces each
+  personally identifiable value with a quantum-random token and irreversibly destroys
+  the mapping. We formalize three tiers of irreversibility (computational,
+  information-theoretic, physics-guaranteed), prove that no classical PRNG-based
+  method achieves the strongest tier, and prove that QRNG-OTP-Destroy does.
